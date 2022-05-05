@@ -7,18 +7,21 @@ pipeline {
       echo 'building'
     
   }
+  }
     
     stages ("test"){
     steps{
       echo 'testing'
     
   }
+    }
       
       stages ("deploy"){
     steps{
       echo 'deploying'
     
   }
+      }
   
   
 }
